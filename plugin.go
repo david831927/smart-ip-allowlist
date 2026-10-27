@@ -1,4 +1,4 @@
-package smartipallowlist
+package smart_ip_allowlist
 
 import (
 	"context"
