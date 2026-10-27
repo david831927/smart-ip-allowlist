@@ -1,0 +1,13 @@
+displayName: Smart IP AllowList
+type: middleware
+import: github.com/david831927/smart-ip-allowlist
+summary: Custom client IP extraction with IP allowlisting
+testData:
+  sourceRange:
+    - "127.0.0.1/32"
+  ipHeaders:
+    - "X-Forwarded-For"
+    - "X-Real-Ip"
+  headersForce: false
+  rejectStatusCode: 403
+  debug: false
